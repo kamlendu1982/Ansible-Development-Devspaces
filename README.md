@@ -18,6 +18,7 @@ Update the variables at the top of the playbook you choose in order to set up an
 8. Deploy an inventory/host/group vars if desired
 9. Deploy an example repository with a role structure if desired (https://github.com/shadowman-lab/Ansible-Example)
 
+
 OpenShift DevSpaces Molecule Example
 1. Start OpenShift DevSpaces with this repo
 2. Open a terminal
