@@ -1,7 +1,7 @@
 {
 	"settings": {
 		"ansible.validation.enabled": true,
-		"ansible.validation.lint.enabled": true,
+		"ansible.validation.lint.enabled": false,
         "ansible.ansible.useFullyQualifiedCollectionNames": true,
         "ansible.executionEnvironment.image": "aap.shadowman.dev/shadowmanee:latest",
         "ansible.executionEnvironment.enabled": true,
