@@ -3,7 +3,6 @@
 		"ansible.validation.enabled": true,
 		"ansible.validation.lint.enabled": false,
         "ansible.ansible.useFullyQualifiedCollectionNames": true,
-        "ansible.executionEnvironment.image": "aap.shadowman.dev/shadowmanee:latest",
         "ansible.executionEnvironment.enabled": false,
         "ansible.validation.lint.arguments": "--profile production --offline",
         "ansible.python.interpreterPath": "/usr/bin/python3.11",
