@@ -2,6 +2,11 @@
 - name: my first task
   hosts: localhost
   tasks:
+    # this is a test task
     - name: print
       debug:
         msg: "welcome to devspaces"
+    - name: starting  a service
+      ansible.builtin.service:
+        name: httpd
+        state: started
