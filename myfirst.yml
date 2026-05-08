@@ -6,6 +6,10 @@
     - name: print
       debug:
         msg: "welcome to devspaces"
+    - name: Display message
+      ansible.builtin.debug:
+        msg: "my dev spaces are working"
+
     - name: starting  a service
       ansible.builtin.service:
         name: httpd
