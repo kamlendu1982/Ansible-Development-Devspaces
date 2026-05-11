@@ -9,7 +9,7 @@
 
     - name: checking the devspaces
       debug:
-        msg: "my first devspace"
+        msg: "my first  - devspace"
 
     - name: starting  a service
       ansible.builtin.service:
