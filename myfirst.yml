@@ -1,6 +1,6 @@
 ---
 - name: my first task
-  hosts: localhost
+  hosts: all
   tasks:
     # this is a test task
     - name: print
